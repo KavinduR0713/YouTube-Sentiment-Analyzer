@@ -40,3 +40,37 @@
 ### 6. Date Handling:
 
 - **Date Filtering:** The code allows filtering videos by date using DateEntry widgets from the tkcalendar library. Handling date inputs and filtering data based on date ranges is a common data science task.
+
+## How Text Processing and Natural Language Processing (NLP) Work in This Project
+
+### 1. Fetching and Preprocessing Comments:
+#### Fetching Comments:
+- The application utilizes the YouTube Data API to search for videos and fetch comments.
+- Users specify a subtopic, number of videos, and number of comments per video.
+- The API retrieves video details and associated comments, which are then stored for further analysis.
+
+#### Preprocessing Comments:
+- **Tokenization:** The process of breaking down text into smaller units (tokens), typically words or phrases.
+    - In this project, the SinhalaTokenizer from the Sinling library is used to handle Sinhala text, which may have unique linguistic structures and characters compared to English.
+    - Each comment is passed through the tokenizer to produce a list of individual words or tokens.
+    - Tokenization helps in transforming raw text into a structured format suitable for analysis.
+
+### 2. Sentiment Analysis:
+#### Analyzing Comments:
+- **TextBlob Sentiment Analysis:**
+    - TextBlob is a Python library for processing textual data. It provides a simple API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, and more.
+    - For each tokenized comment, TextBlob analyzes the text and assigns a polarity score. The polarity score ranges from -1 (negative) to +1 (positive), with 0 being neutral.
+    - **Sentiment analysis using TextBlob involves:**
+         -  **Polarity Detection:** Determines the overall sentiment of the comment. A positive score indicates a positive sentiment, a negative score indicates a negative sentiment, and a score close to zero indicates a neutral sentiment.
+         -  **Subjectivity Detection:** Measures how subjective or objective the text is. However, in this project, we primarily focus on polarity for sentiment classification.
+#### Classifying Comments:
+- Based on the polarity score:
+    - Comments with a positive polarity (>0) are classified as positive.
+    - Comments with a negative polarity (<0) are classified as negative.
+    - Neutral comments (polarity ≈ 0) are typically less emphasized in visualization but can be stored for completeness.
+#### Storing Results:
+- Positive and negative comments are stored separately to facilitate detailed analysis and visualization.
+- The counts of positive and negative comments are tracked to compute the overall sentiment distribution.
+
+### 3. Visualization:
+#### Generating Word Clouds:
