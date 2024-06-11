@@ -126,6 +126,10 @@
 #### Sub Topic:- Sri Lankan Politics
 
 ![Interface_OutPut_Politics](https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/62c52e95-5b14-4e02-82b5-b96575901e34)
+
+## Practical Use case of YouTube-Sentiment-Analyzer
+- In a real-world application, customized pre-roll YouTube ads were executed for a Telco social media package plan. Fifty different edits were shown based on what consumers searched for, resulting in a 633% higher click-through rate compared to traditional TV commercial edits. This highlights the effectiveness of targeted content and personalized advertising strategies, reinforcing the value of data-driven insights provided by this project.
+
  
 ### Summary
 
