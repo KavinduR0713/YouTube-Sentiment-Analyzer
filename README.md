@@ -74,3 +74,32 @@
 
 ### 3. Visualization:
 #### Generating Word Clouds:
+- **Word Cloud for All Comments:**
+     - A word cloud is a visual representation of text data, where the size of each word indicates its frequency or importance.
+     - All tokenized words from the fetched comments are combined into a single text.
+     - The WordCloud library generates a word cloud image, highlighting the most frequent words.
+- **Word Cloud for Positive Comments:**
+     - Similarly, tokenized words from positive comments are combined.
+     - A word cloud is generated to visualize the key terms associated with positive sentiment.
+- **Word Cloud for Negative Comments:**
+     - Tokenized words from negative comments are combined.
+     - A word cloud is generated to visualize the key terms associated with negative sentiment.
+
+#### Displaying Sentiment Analysis Results:
+- **Emoji-Based Sentiment Display:**
+     - The overall sentiment is calculated by comparing the counts of positive and negative comments.
+     -  If the positive count is higher, the sentiment is displayed with a happy emoji (😊) and the percentage of positive comments.
+     -  If the negative count is higher, the sentiment is displayed with a sad emoji (☹️) and the percentage of negative comments.
+- **Sentiment Distribution:**
+     - The exact percentage of positive and negative comments is computed and displayed, providing a quantitative view of the sentiment distribution.
+
+#### Integrating Visualization in GUI:
+- **Matplotlib for Word Clouds:**
+     - Matplotlib, a plotting library, is used to render word cloud images within the Tkinter GUI.
+     - The word cloud images are displayed in separate subplots for easy comparison.
+- **Sentiment Labels:**
+     - Sentiment results are displayed as text labels in the GUI, showing the overall sentiment and the respective percentages.
+ 
+### Summary
+
+In summary, this project integrates text processing and NLP to fetch and analyze YouTube comments. By tokenizing comments, performing sentiment analysis with TextBlob, and visualizing results using word clouds and sentiment indicators, the project provides comprehensive insights into viewer sentiments and trending keywords. This process not only enhances the understanding of public opinion but also leverages the power of data science to transform raw text data into actionable insights.
