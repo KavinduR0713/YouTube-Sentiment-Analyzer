@@ -114,7 +114,7 @@
 ![Interface_OutPut_1](https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/680d0c08-5577-4ce7-8c8e-2d1027f6864f)
 
 
-### 2. Most Viewed Filter Output 
+### 2. Date Filter Output 
 - When selecting the "Date" filter, the code allows users to specify a date range using start and end dates. It then retrieves YouTube videos related to the specified subtopic published within the specified date range. This filter enables users to explore videos based on their publication dates, facilitating time-based analysis of video content. Users can focus on recent videos or videos published during specific periods of interest.
 
 #### Sub Topic:- Eminem 
