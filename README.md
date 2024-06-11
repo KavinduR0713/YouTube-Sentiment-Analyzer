@@ -103,6 +103,14 @@
 ## Interface of YouTube-Sentiment-Analyzer
 
 ![Interface_1](https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/0e5c7885-50e8-4101-8aad-b9e62ff24c4b)
+
+## Output of YouTube-Sentiment-Analyzer
+
+### 1. Most Viewed Filter Output 
+- When selecting the "Most Viewed" filter, the code retrieves YouTube videos related to the specified subtopic based on their view count. It orders the search results by the number of views in descending order, ensuring that the most viewed videos related to the given subtopic are fetched first. This filter allows users to explore the most popular videos on YouTube relevant to their search query.
+
+### 2. 1. Most Viewed Filter Output 
+- When selecting the "Date" filter, the code allows users to specify a date range using start and end dates. It then retrieves YouTube videos related to the specified subtopic published within the specified date range. This filter enables users to explore videos based on their publication dates, facilitating time-based analysis of video content. Users can focus on recent videos or videos published during specific periods of interest.
  
 ### Summary
 
