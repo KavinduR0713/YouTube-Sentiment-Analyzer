@@ -99,6 +99,10 @@
      - The word cloud images are displayed in separate subplots for easy comparison.
 - **Sentiment Labels:**
      - Sentiment results are displayed as text labels in the GUI, showing the overall sentiment and the respective percentages.
+
+## Interface of YouTube-Sentiment-Analyzer
+
+![Interface_1](https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/0e5c7885-50e8-4101-8aad-b9e62ff24c4b)
  
 ### Summary
 
