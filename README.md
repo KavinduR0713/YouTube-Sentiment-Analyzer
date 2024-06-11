@@ -109,8 +109,23 @@
 ### 1. Most Viewed Filter Output 
 - When selecting the "Most Viewed" filter, the code retrieves YouTube videos related to the specified subtopic based on their view count. It orders the search results by the number of views in descending order, ensuring that the most viewed videos related to the given subtopic are fetched first. This filter allows users to explore the most popular videos on YouTube relevant to their search query.
 
-### 2. 1. Most Viewed Filter Output 
+#### Sub Topic:- Eminem 
+
+![Interface_OutPut_1](https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/680d0c08-5577-4ce7-8c8e-2d1027f6864f)
+
+
+### 2. Most Viewed Filter Output 
 - When selecting the "Date" filter, the code allows users to specify a date range using start and end dates. It then retrieves YouTube videos related to the specified subtopic published within the specified date range. This filter enables users to explore videos based on their publication dates, facilitating time-based analysis of video content. Users can focus on recent videos or videos published during specific periods of interest.
+
+#### Sub Topic:- Eminem 
+
+![Interface_OutPut_Date](https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/d9c98fce-f80e-4abb-8903-412e92f520bf)
+
+### 3. Output with Sinhala Comments
+
+#### Sub Topic:- Sri Lankan Politics
+
+![Interface_OutPut_Politics](https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/62c52e95-5b14-4e02-82b5-b96575901e34)
  
 ### Summary
 
