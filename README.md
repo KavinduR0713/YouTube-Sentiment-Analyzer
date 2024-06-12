@@ -113,6 +113,8 @@
 
 ![Interface_OutPut_1](https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/680d0c08-5577-4ce7-8c8e-2d1027f6864f)
 
+https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/26db2f6b-cc73-4a5a-9d64-0902d8b858e3
+
 
 ### 2. Date Filter Output 
 - When selecting the "Date" filter, the code allows users to specify a date range using start and end dates. It then retrieves YouTube videos related to the specified subtopic published within the specified date range. This filter enables users to explore videos based on their publication dates, facilitating time-based analysis of video content. Users can focus on recent videos or videos published during specific periods of interest.
@@ -121,11 +123,15 @@
 
 ![Interface_OutPut_Date](https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/d9c98fce-f80e-4abb-8903-412e92f520bf)
 
+https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/06fa4e08-8fbd-4633-a705-74880f45b782
+
 ### 3. Output with Sinhala Comments
 
 #### Sub Topic:- Sri Lankan Politics
 
 ![Interface_OutPut_Politics](https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/62c52e95-5b14-4e02-82b5-b96575901e34)
+
+https://github.com/KavinduR0713/YouTube-Sentiment-Analyzer/assets/105490780/ce4552f8-86ee-4328-9a03-d43c9387d91e
 
 ## Practical Use case of YouTube-Sentiment-Analyzer
 - In a real-world application, customized pre-roll YouTube ads were executed for a Telco social media package plan. Fifty different edits were shown based on what consumers searched for, resulting in a 633% higher click-through rate compared to traditional TV commercial edits. This highlights the effectiveness of targeted content and personalized advertising strategies, reinforcing the value of data-driven insights provided by this project.
